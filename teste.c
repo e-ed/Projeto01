@@ -3,6 +3,6 @@
 
 int main() {
 
-    printf("Funcionou?");
+    printf("a vida eh uma merda :(");
     return 0;
 }

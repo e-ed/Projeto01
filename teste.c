@@ -4,6 +4,8 @@
 int *array, size;
 
 void printArray(int *array, int size);
+void triplasForcaBruta(int *array, int size);
+void triplasMelhorado();
 
 int main() {
 
@@ -21,7 +23,12 @@ int main() {
         scanf("%d", &array[i]);
     }
 
+    printf("Array informado[] = ");
     printArray(array, size);
+
+    printf("\n---3SUM - Forca bruta:---\n\n");
+
+    triplasForcaBruta(array, size);
 
     return 0;
 }
@@ -32,5 +39,16 @@ void printArray(int *array, int size){
         printf("%d ", array[i]);
     }
     printf("\n");
+
+}
+
+void triplasForcaBruta(int *array, int size){
+
+    
+
+}
+
+void triplasMelhorado(){
+
 
 }

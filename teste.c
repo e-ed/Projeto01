@@ -3,6 +3,14 @@
 
 int main() {
 
-    printf("a vida eh uma merda :(");
+    printf("Faca uma piramide de asteriscos:\n\n");
+    
+    printf("*\n");
+    printf("**\n");
+    printf("***\n");
+    printf("****\n");
+    printf("*****\n");
+    printf("******\n");
+
     return 0;
 }

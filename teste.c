@@ -44,11 +44,38 @@ void printArray(int *array, int size){
 
 void triplasForcaBruta(int *array, int size){
 
-    
+    int tripla[3];
+    int totalTriplas = 0;
+    int i;
+    int j;
+    int k;
+
+    for(i = 0; i < size; i++){
+
+        for(k = (i + 2); k < size; k++){
+            for(j = (i + 1); j < k; j++){
+                if(array[i] + (array[j] + array[k]) == 0){
+                    totalTriplas += 1;
+                    printf("%d Tripla Encontrada: [%d, %d, %d]\n", totalTriplas, array[i], array[j], array[k]);
+                }
+            }
+        }
+    /*
+        do{
+            if(array[i] + (array[j] + array[k]) == 0){
+                totalTriplas += 1;
+                printf("%d Tripla Encontrada: [%d, %d, %d]\n", totalTriplas, array[i], array[j], array[k]);
+            }
+            j++;
+            k++;
+        }while(k < size-1);
+    */
+    }
 
 }
 
 void triplasMelhorado(){
+
 
 
 }
